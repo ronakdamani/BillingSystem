@@ -66,7 +66,7 @@ Partial Class Login
         Me.btnLogin.Location = New System.Drawing.Point(46, 121)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(84, 27)
-        Me.btnLogin.TabIndex = 3
+        Me.btnLogin.TabIndex = 2
         Me.btnLogin.Text = "Login"
         Me.btnLogin.UseVisualStyleBackColor = True
         '
@@ -126,7 +126,7 @@ Partial Class Login
         Me.Controls.Add(Me.Label1)
         Me.MaximizeBox = False
         Me.Name = "Login"
-        Me.Text = "Login"
+        Me.Text = "ManagementOne POS"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

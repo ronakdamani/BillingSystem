@@ -37,12 +37,15 @@ Partial Class frmMain
         Me.AddProductToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.ManageProductStockToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem
+        Me.ChangePaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.LogOffToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip
         '
-        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileMenu, Me.ProductSetupToolStripMenuItem})
+        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.FileMenu, Me.ProductSetupToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
         Me.MenuStrip.Size = New System.Drawing.Size(632, 24)
@@ -114,6 +117,25 @@ Partial Class frmMain
         Me.ManageProductStockToolStripMenuItem.Size = New System.Drawing.Size(194, 22)
         Me.ManageProductStockToolStripMenuItem.Text = "Manage Product Stock"
         '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChangePaToolStripMenuItem, Me.LogOffToolStripMenuItem})
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(55, 20)
+        Me.ToolStripMenuItem1.Text = "Admin"
+        '
+        'ChangePaToolStripMenuItem
+        '
+        Me.ChangePaToolStripMenuItem.Name = "ChangePaToolStripMenuItem"
+        Me.ChangePaToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
+        Me.ChangePaToolStripMenuItem.Text = "Change Password"
+        '
+        'LogOffToolStripMenuItem
+        '
+        Me.LogOffToolStripMenuItem.Name = "LogOffToolStripMenuItem"
+        Me.LogOffToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
+        Me.LogOffToolStripMenuItem.Text = "Log off"
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -143,5 +165,8 @@ Partial Class frmMain
     Friend WithEvents AddProductToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ManageCompanySetupToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ManageProductStockToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ChangePaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents LogOffToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class

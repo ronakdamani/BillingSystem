@@ -63,8 +63,15 @@ Public Class frmMain
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
-        Me.Hide()
-        Login.Show()
+        Dim Response As String
+
+        Response = MsgBox("Are you Sure want to exit the program", MsgBoxStyle.YesNo)
+        If Response = vbYes Then
+            End
+        Else
+            Me.Show()
+        End If
+
     End Sub
 
     Private Sub AddProductToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AddProductToolStripMenuItem.Click
@@ -88,6 +95,45 @@ Public Class frmMain
         ProductStock.Text = "Product Details"
 
         ProductStock.Show()
+
+    End Sub
+
+    Private Sub frmMain_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
+        Dim Response As String
+
+        Response = MsgBox("Are you Sure want to exit the program", MsgBoxStyle.YesNo)
+        If Response = vbYes Then
+            End
+        Else
+            Me.Show()
+        End If
+
+
+
+    End Sub
+
+    Private Sub frmMain_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub ToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem1.Click
+
+    End Sub
+
+    Private Sub LogOffToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LogOffToolStripMenuItem.Click
+        Me.Hide()
+        Login.Show()
+
+    End Sub
+
+    Private Sub ChangePaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ChangePaToolStripMenuItem.Click
+
+        changepwd.MdiParent = Me
+        changepwd.Show()
+
+    End Sub
+
+    Private Sub ProductSetupToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProductSetupToolStripMenuItem.Click
 
     End Sub
 End Class
