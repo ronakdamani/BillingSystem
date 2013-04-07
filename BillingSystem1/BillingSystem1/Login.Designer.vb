@@ -38,9 +38,9 @@ Partial Class Login
         Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(131, 20)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(82, 20)
+        Me.Label1.Size = New System.Drawing.Size(139, 20)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Login Form"
+        Me.Label1.Text = "POS LOGIN SCREEN"
         '
         'lblPassword
         '
@@ -58,14 +58,14 @@ Partial Class Login
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtPassword.Size = New System.Drawing.Size(146, 20)
-        Me.txtPassword.TabIndex = 2
+        Me.txtPassword.TabIndex = 1
         '
         'btnLogin
         '
         Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.Location = New System.Drawing.Point(46, 121)
         Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.Size = New System.Drawing.Size(84, 27)
+        Me.btnLogin.Size = New System.Drawing.Size(248, 27)
         Me.btnLogin.TabIndex = 2
         Me.btnLogin.Text = "Login"
         Me.btnLogin.UseVisualStyleBackColor = True
@@ -126,6 +126,7 @@ Partial Class Login
         Me.Controls.Add(Me.Label1)
         Me.MaximizeBox = False
         Me.Name = "Login"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ManagementOne POS"
         Me.ResumeLayout(False)
         Me.PerformLayout()
