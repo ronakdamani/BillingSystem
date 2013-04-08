@@ -26,9 +26,6 @@ Partial Class Login
         Me.lblPassword = New System.Windows.Forms.Label
         Me.txtPassword = New System.Windows.Forms.TextBox
         Me.btnLogin = New System.Windows.Forms.Button
-        Me.btnChangePassword = New System.Windows.Forms.Button
-        Me.lblNewPassword = New System.Windows.Forms.Label
-        Me.txtNewPassword = New System.Windows.Forms.TextBox
         Me.CheckBox1 = New System.Windows.Forms.CheckBox
         Me.SuspendLayout()
         '
@@ -70,37 +67,6 @@ Partial Class Login
         Me.btnLogin.Text = "Login"
         Me.btnLogin.UseVisualStyleBackColor = True
         '
-        'btnChangePassword
-        '
-        Me.btnChangePassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnChangePassword.Location = New System.Drawing.Point(42, 199)
-        Me.btnChangePassword.Name = "btnChangePassword"
-        Me.btnChangePassword.Size = New System.Drawing.Size(173, 27)
-        Me.btnChangePassword.TabIndex = 4
-        Me.btnChangePassword.Text = "Confirm Change Password"
-        Me.btnChangePassword.UseVisualStyleBackColor = True
-        Me.btnChangePassword.Visible = False
-        '
-        'lblNewPassword
-        '
-        Me.lblNewPassword.AutoSize = True
-        Me.lblNewPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNewPassword.Location = New System.Drawing.Point(43, 163)
-        Me.lblNewPassword.Name = "lblNewPassword"
-        Me.lblNewPassword.Size = New System.Drawing.Size(95, 15)
-        Me.lblNewPassword.TabIndex = 6
-        Me.lblNewPassword.Text = "New Password :"
-        Me.lblNewPassword.Visible = False
-        '
-        'txtNewPassword
-        '
-        Me.txtNewPassword.Location = New System.Drawing.Point(148, 162)
-        Me.txtNewPassword.Name = "txtNewPassword"
-        Me.txtNewPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtNewPassword.Size = New System.Drawing.Size(146, 20)
-        Me.txtNewPassword.TabIndex = 7
-        Me.txtNewPassword.Visible = False
-        '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
@@ -117,9 +83,6 @@ Partial Class Login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(377, 242)
         Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.txtNewPassword)
-        Me.Controls.Add(Me.lblNewPassword)
-        Me.Controls.Add(Me.btnChangePassword)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.lblPassword)
@@ -136,9 +99,6 @@ Partial Class Login
     Friend WithEvents lblPassword As System.Windows.Forms.Label
     Friend WithEvents txtPassword As System.Windows.Forms.TextBox
     Friend WithEvents btnLogin As System.Windows.Forms.Button
-    Friend WithEvents btnChangePassword As System.Windows.Forms.Button
-    Friend WithEvents lblNewPassword As System.Windows.Forms.Label
-    Friend WithEvents txtNewPassword As System.Windows.Forms.TextBox
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 
 End Class
