@@ -26,7 +26,6 @@ Partial Class Login
         Me.lblPassword = New System.Windows.Forms.Label
         Me.txtPassword = New System.Windows.Forms.TextBox
         Me.btnLogin = New System.Windows.Forms.Button
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox
         Me.SuspendLayout()
         '
         'Label1
@@ -67,22 +66,11 @@ Partial Class Login
         Me.btnLogin.Text = "Login"
         Me.btnLogin.UseVisualStyleBackColor = True
         '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(46, 89)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(112, 17)
-        Me.CheckBox1.TabIndex = 8
-        Me.CheckBox1.Text = "Change Password"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(377, 242)
-        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.lblPassword)
@@ -99,6 +87,5 @@ Partial Class Login
     Friend WithEvents lblPassword As System.Windows.Forms.Label
     Friend WithEvents txtPassword As System.Windows.Forms.TextBox
     Friend WithEvents btnLogin As System.Windows.Forms.Button
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 
 End Class

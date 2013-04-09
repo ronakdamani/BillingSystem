@@ -26,7 +26,7 @@ Public Class frmMain
 
     End Sub
 
-    Private Sub ViewCompanySetupStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ViewCompanySetupStripMenuItem1.Click
+    Private Sub ViewCompanySetupStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
         ' Create a new instance of the child form.
         Dim CompanySetup As New CompanySetup
