@@ -35,9 +35,9 @@ Partial Class Login
         Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(131, 20)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(81, 20)
+        Me.Label1.Size = New System.Drawing.Size(139, 20)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "POS LOGIN"
+        Me.Label1.Text = "POS LOGIN SCREEN"
         '
         'lblPassword
         '
