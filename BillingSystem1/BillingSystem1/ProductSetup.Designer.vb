@@ -191,7 +191,7 @@ Partial Class ProductSetup
         Me.grpManageProduct.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grpManageProduct.Location = New System.Drawing.Point(21, 21)
         Me.grpManageProduct.Name = "grpManageProduct"
-        Me.grpManageProduct.Size = New System.Drawing.Size(292, 356)
+        Me.grpManageProduct.Size = New System.Drawing.Size(591, 480)
         Me.grpManageProduct.TabIndex = 22
         Me.grpManageProduct.TabStop = False
         Me.grpManageProduct.Text = "Manage Product"
@@ -200,7 +200,7 @@ Partial Class ProductSetup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(342, 405)
+        Me.ClientSize = New System.Drawing.Size(624, 444)
         Me.Controls.Add(Me.grpManageProduct)
         Me.Name = "ProductSetup"
         Me.Text = "ProductSetup"

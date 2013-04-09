@@ -136,4 +136,18 @@ Public Class frmMain
     Private Sub ProductSetupToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProductSetupToolStripMenuItem.Click
 
     End Sub
+
+    Private Sub AboutPOSToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutPOSToolStripMenuItem.Click
+        AboutBox1.MdiParent = Me
+        AboutBox1.Show()
+    End Sub
+
+    Private Sub ToolStripSeparator1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripSeparator1.Click
+
+    End Sub
+
+    Private Sub lbllogoff_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbllogoff.Click
+        Me.Hide()
+        Login.Show()
+    End Sub
 End Class
